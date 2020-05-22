@@ -11,7 +11,7 @@ app.use(express.static("public"));
 app.use(morgan("dev"));
 
 app.get("/", function (req, resp) {
-  resp.send("Hello World");
+  resp.send("Hello for NODE");
 });
 app.get("/api/contacts", (req, resp) => {
   contacts.listContacts(req, resp);
