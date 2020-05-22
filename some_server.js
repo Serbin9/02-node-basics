@@ -4,7 +4,7 @@ const PORT = 3050
 
 server.get("/forecast", (req, res, next)=>{
 return res.json({
-    hello: "Cocumbers"
+    hello: "Hello world"
 })
 })
 server.listen(PORT, ()=>{
